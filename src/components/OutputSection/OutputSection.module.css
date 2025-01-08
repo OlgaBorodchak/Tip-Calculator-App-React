@@ -1,0 +1,16 @@
+.outputSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  background-color: hsla(183, 100%, 15%, 1);
+  border-radius: 15px;
+  padding: 2.5em;
+}
+
+@media all and (max-width: 800px) {
+  .outputSection {
+    margin: 0 1.5em 1.5em 1.5em;
+    padding: 2.3em 1.5em 1.5em 1.5em;
+  }
+}

@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  gap: 3em;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 56.5em;
+  padding: 2em;
+  font-weight: 700;
+}
+
+.active {
+  background-color: hsla(172, 67%, 45%, 1);
+  color: hsla(183, 100%, 15%, 1);
+}
+
+.error-message {
+  color: hsl(13, 70%, 61%);
+  font-size: 1rem;
+  margin-bottom: 4px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.input-field-error:focus {
+  border: 2px solid hsla(13, 70%, 61%, 1);
+}
+
+@media all and (max-width: 800px) {
+  .App {
+    flex-wrap: wrap;
+    gap: 2em;
+    border-radius: 25px 25px 0 0;
+    padding: 0;
+  }
+}

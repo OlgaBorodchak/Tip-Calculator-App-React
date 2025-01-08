@@ -1,0 +1,29 @@
+.tipButtonsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 7.3em);
+  gap: 1em;
+  padding-block: 0.5em 2em;
+}
+
+.tipButton {
+  background-color: hsla(183, 100%, 15%, 1);
+  color: hsl(0, 0%, 100%);
+  font-family: 'Space Mono', monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+}
+
+.tipButton:hover {
+  background-color: hsla(172, 67%, 45%, 1);
+  color: hsla(183, 100%, 15%, 1);
+  cursor: pointer;
+}
+
+@media all and (max-width: 800px) {
+  .tipButtonsContainer {
+    grid-template-columns: repeat(2, 9.165em);
+  }
+}

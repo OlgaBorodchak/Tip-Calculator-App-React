@@ -1,0 +1,13 @@
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding-block: 0.875em;
+}
+
+@media all and (max-width: 800px) {
+  .inputSection {
+    padding: 2em 2em 0 2em;
+  }
+}

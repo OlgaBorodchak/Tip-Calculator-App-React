@@ -1,0 +1,65 @@
+.label {
+  color: hsl(186, 14%, 43%);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.inputField,
+.customInputField {
+  background-color: hsla(185, 38%, 97%, 1);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: hsl(183, 100%, 15%);
+  cursor: pointer;
+}
+
+.inputField {
+  padding: 0.3em 0.8em;
+  width: 100%;
+  text-align: right;
+}
+
+.customInputField {
+  text-align: center;
+}
+
+.inputField::placeholder {
+  color: hsl(184, 14%, 56%);
+  opacity: 0.8;
+}
+
+.customInputField::placeholder {
+  color: hsla(180, 18%, 40%, 1);
+}
+
+.inputField:focus,
+.customInputField:focus {
+  border: 2px solid hsla(172, 67%, 45%);
+}
+
+.inputField::-webkit-outer-spin-button,
+.inputField::-webkit-inner-spin-button,
+.customInputField::-webkit-outer-spin-button,
+.customInputField::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputField[type='number'],
+.customInputField[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.customCaret {
+  caret-color: hsla(172, 67%, 45%, 1);
+}
+
+@media all and (max-width: 800px) {
+  .label {
+    padding-bottom: 6px;
+  }
+}

@@ -1,0 +1,10 @@
+.inputFieldIcon {
+  background-image: url(../../assets/icons/icon-person.svg);
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  margin-top: 6px;
+}
+
+.peopleInputContainer {
+  position: relative;
+}

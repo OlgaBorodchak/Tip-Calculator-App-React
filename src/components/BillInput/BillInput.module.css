@@ -1,0 +1,12 @@
+.inputFieldIcon {
+  background-image: url(../../assets/icons/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  margin-bottom: 1.4em;
+}
+
+@media all and (max-width: 800px) {
+  .inputFieldIcon {
+    margin-bottom: 1.375em;
+  }
+}

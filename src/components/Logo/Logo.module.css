@@ -1,0 +1,15 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  margin: 10.2em 0 5em 0;
+}
+
+.logoImg {
+  max-width: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .logoContainer {
+    margin: 3.2em auto 2.5em auto;
+  }
+}

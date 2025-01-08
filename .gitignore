@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Build directories
+build/
+dist/
+
+# Environment variables (ensure you're not exposing sensitive information)
+.env
+
+# npm and Yarn logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Log files
+*.log
+
+# Cache files
+npm/
+.cache/
+
+# gh-pages build (from git pages deployment)
+node_modules/.cache/gh-pages/
+
+# IDE-specific files
+.idea/
+
+# Temporary files
+*.swp
