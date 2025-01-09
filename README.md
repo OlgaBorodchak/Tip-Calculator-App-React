@@ -32,16 +32,22 @@ Follow these steps to run the project locally:
 
 ```bash
 git clone https://github.com/OlgaBorodchak/tip-calculator-app-react.git
+```
 
 2. Navigate to the project directory:
 
+```bash
 cd tip-calculator-app-react
+```
 
 3. Install NPM packages
 
+```bash
 npm install
+```
 
 4. Run the app
 
+```bash
 npm start
 ```
