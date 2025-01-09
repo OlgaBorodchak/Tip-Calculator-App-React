@@ -1,38 +1,47 @@
-# React project for the React Course
+# Frontend Mentor - Tip Calculator App Solution
 
-## Available Scripts
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX).
 
-In the project directory, you can run:
+This project focuses on creating a user-friendly interface to calculate tips based on the bill amount, tip percentage, and number of people. Frontend Mentor challenges help me improve my coding skills by building realistic projects and tackling real-world scenarios.
 
-### `npm start`
+## Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Desktop - Active
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![Tip Calculator App Screenshot](https://i.postimg.cc/4N16rdm7/olgaborodchak-github-io-tip-calculator-app-react.png)](https://postimg.cc/PPPvDdbT)
 
-### `npm test`
+### Desktop - Empty
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![Tip Calculator App Screenshot](https://i.postimg.cc/L6SkCf6F/olgaborodchak-github-io-tip-calculator-app-react-1.png)](https://postimg.cc/MXsjXnQ9)
 
-### `npm run build`
+## Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Live Site](https://OlgaBorodchak.github.io/tip-calculator-app-react)
+- [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Build with
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- JavaScript
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Follow these steps to run the project locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/OlgaBorodchak/tip-calculator-app-react.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
+
+cd tip-calculator-app-react
+
+3. Install NPM packages
+
+npm install
+
+4. Run the app
+
+npm start
+```
